@@ -1,0 +1,10 @@
+{
+  "name": "Bootstrap express handlebars",
+  "version": "0.0.1",
+  "description": "Bootstrap express handlebars",
+  "license": "MIT",
+  "dependencies": {
+    "requirejs": "latest",
+    "jquery": "~1.11.1"
+  }
+}
