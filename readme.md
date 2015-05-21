@@ -27,3 +27,5 @@ bower install
 
 ### Start server
 `node --harmony bootstrap/app.js | ./node_modules/.bin/bunyan`
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/swarajgiri/express-bootstrap/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
