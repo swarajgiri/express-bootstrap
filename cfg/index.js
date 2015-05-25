@@ -2,7 +2,7 @@ var _ = require('lodash');
 
 var cfg = {
     'appname'     : 'bootstrap',
-    'baseurl'     : process.env.BASEURL || 'http://localhost:8081',
+    'baseurl'     : process.env.BASEURL || 'http://localhost:8080',
     'paths': {
         'tmp'      : __dirname + '/../web/_tmp',
         'static'   : __dirname + '/../web/static',

@@ -1,6 +1,7 @@
 ### Hello world bootstrap using
 - Express
 - Handlebars
+- Mocha
 
 ### Requirements
 -  Nodejs. Best way to install nodejs is [nvm](https://github.com/creationix/nvm)
@@ -27,5 +28,8 @@ bower install
 
 ### Start server
 `node --harmony bootstrap/app.js | ./node_modules/.bin/bunyan`
+
+### Run tests
+npm test
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/swarajgiri/express-bootstrap/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
