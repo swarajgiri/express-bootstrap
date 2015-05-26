@@ -1,7 +1,9 @@
+[![David DM](https://david-dm.org/swarajgiri/express-bootstrap.svg)](https://david-dm.org/swarajgiri/express-bootstrap.svg)
+[![Build Status](https://travis-ci.org/swarajgiri/express-bootstrap.svg?branch=master)](https://travis-ci.org/swarajgiri/express-bootstrap)
+
 ### Hello world bootstrap using
 - Express
 - Handlebars
-- Mocha
 
 ### Requirements
 -  Nodejs. Best way to install nodejs is [nvm](https://github.com/creationix/nvm)
