@@ -1,6 +1,6 @@
 {
   "name": "Bootstrap",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {
     "compression": {
       "version": "1.4.4",
@@ -12,12 +12,12 @@
           "from": "accepts@~1.2.7",
           "dependencies": {
             "mime-types": {
-              "version": "2.0.11",
-              "from": "mime-types@~2.0.11",
+              "version": "2.0.12",
+              "from": "mime-types@2.0.12",
               "dependencies": {
                 "mime-db": {
-                  "version": "1.9.1",
-                  "from": "mime-db@~1.9.1"
+                  "version": "1.10.0",
+                  "from": "mime-db@~1.10.0"
                 }
               }
             },
@@ -36,8 +36,8 @@
           "from": "compressible@~2.0.2",
           "dependencies": {
             "mime-db": {
-              "version": "1.9.1",
-              "from": "mime-db@>= 1.1.2 < 2"
+              "version": "1.10.0",
+              "from": "mime-db@~1.10.0"
             }
           }
         },
@@ -62,20 +62,21 @@
       }
     },
     "express": {
-      "version": "4.12.3",
-      "from": "express@",
+      "version": "4.12.4",
+      "from": "express@4.12.4",
+      "resolved": "https://registry.npmjs.org/express/-/express-4.12.4.tgz",
       "dependencies": {
         "accepts": {
           "version": "1.2.7",
-          "from": "accepts@~1.2.5",
+          "from": "accepts@~1.2.7",
           "dependencies": {
             "mime-types": {
-              "version": "2.0.11",
+              "version": "2.0.12",
               "from": "mime-types@~2.0.11",
               "dependencies": {
                 "mime-db": {
-                  "version": "1.9.1",
-                  "from": "mime-db@~1.9.1"
+                  "version": "1.10.0",
+                  "from": "mime-db@~1.10.0"
                 }
               }
             },
@@ -102,26 +103,26 @@
           "from": "cookie-signature@1.0.6"
         },
         "debug": {
-          "version": "2.1.3",
-          "from": "debug@~2.1.3",
+          "version": "2.2.0",
+          "from": "debug@~2.2.0",
           "dependencies": {
             "ms": {
-              "version": "0.7.0",
-              "from": "ms@0.7.0"
+              "version": "0.7.1",
+              "from": "ms@0.7.1"
             }
           }
         },
         "depd": {
           "version": "1.0.1",
-          "from": "depd@~1.0.0"
+          "from": "depd@~1.0.1"
         },
         "escape-html": {
           "version": "1.0.1",
           "from": "escape-html@1.0.1"
         },
         "etag": {
-          "version": "1.5.1",
-          "from": "etag@~1.5.1",
+          "version": "1.6.0",
+          "from": "etag@~1.6.0",
           "dependencies": {
             "crc": {
               "version": "3.2.1",
@@ -130,13 +131,12 @@
           }
         },
         "finalhandler": {
-          "version": "0.3.4",
-          "from": "finalhandler@0.3.4"
+          "version": "0.3.6",
+          "from": "finalhandler@0.3.6"
         },
         "fresh": {
           "version": "0.2.4",
-          "from": "fresh@0.2.4",
-          "resolved": "https://registry.npmjs.org/fresh/-/fresh-0.2.4.tgz"
+          "from": "fresh@0.2.4"
         },
         "merge-descriptors": {
           "version": "1.0.0",
@@ -148,11 +148,12 @@
         },
         "on-finished": {
           "version": "2.2.1",
-          "from": "on-finished@~2.2.0",
+          "from": "on-finished@~2.2.1",
           "dependencies": {
             "ee-first": {
               "version": "1.1.0",
-              "from": "ee-first@1.1.0"
+              "from": "ee-first@1.1.0",
+              "resolved": "https://registry.npmjs.org/ee-first/-/ee-first-1.1.0.tgz"
             }
           }
         },
@@ -167,7 +168,7 @@
         },
         "proxy-addr": {
           "version": "1.0.8",
-          "from": "proxy-addr@~1.0.7",
+          "from": "proxy-addr@~1.0.8",
           "dependencies": {
             "forwarded": {
               "version": "0.1.0",
@@ -180,16 +181,16 @@
           }
         },
         "qs": {
-          "version": "2.4.1",
-          "from": "qs@2.4.1"
+          "version": "2.4.2",
+          "from": "qs@2.4.2"
         },
         "range-parser": {
           "version": "1.0.2",
           "from": "range-parser@~1.0.2"
         },
         "send": {
-          "version": "0.12.2",
-          "from": "send@0.12.2",
+          "version": "0.12.3",
+          "from": "send@0.12.3",
           "dependencies": {
             "destroy": {
               "version": "1.0.3",
@@ -200,30 +201,30 @@
               "from": "mime@1.3.4"
             },
             "ms": {
-              "version": "0.7.0",
-              "from": "ms@0.7.0"
+              "version": "0.7.1",
+              "from": "ms@0.7.1"
             }
           }
         },
         "serve-static": {
-          "version": "1.9.2",
-          "from": "serve-static@~1.9.2"
+          "version": "1.9.3",
+          "from": "serve-static@~1.9.3"
         },
         "type-is": {
           "version": "1.6.2",
-          "from": "type-is@~1.6.1",
+          "from": "type-is@~1.6.2",
           "dependencies": {
             "media-typer": {
               "version": "0.3.0",
               "from": "media-typer@0.3.0"
             },
             "mime-types": {
-              "version": "2.0.11",
+              "version": "2.0.12",
               "from": "mime-types@~2.0.11",
               "dependencies": {
                 "mime-db": {
-                  "version": "1.9.1",
-                  "from": "mime-db@~1.9.1"
+                  "version": "1.10.0",
+                  "from": "mime-db@~1.10.0"
                 }
               }
             }
@@ -244,9 +245,9 @@
       "from": "express-handlebars@",
       "dependencies": {
         "glob": {
-          "version": "5.0.6",
-          "from": "glob@^5.0.0",
-          "resolved": "https://registry.npmjs.org/glob/-/glob-5.0.6.tgz",
+          "version": "5.0.10",
+          "from": "glob@5.0.10",
+          "resolved": "https://registry.npmjs.org/glob/-/glob-5.0.10.tgz",
           "dependencies": {
             "inflight": {
               "version": "1.0.4",
@@ -263,7 +264,7 @@
               "from": "inherits@2"
             },
             "minimatch": {
-              "version": "2.0.7",
+              "version": "2.0.8",
               "from": "minimatch@^2.0.1",
               "dependencies": {
                 "brace-expansion": {
@@ -299,8 +300,8 @@
           }
         },
         "graceful-fs": {
-          "version": "3.0.6",
-          "from": "graceful-fs@^3.0.2"
+          "version": "3.0.7",
+          "from": "graceful-fs@3.0.7"
         },
         "handlebars": {
           "version": "3.0.3",
@@ -357,8 +358,9 @@
           "from": "object.assign@^1.1.1",
           "dependencies": {
             "object-keys": {
-              "version": "1.0.3",
-              "from": "object-keys@~1.0.1"
+              "version": "1.0.4",
+              "from": "object-keys@1.0.4",
+              "resolved": "https://registry.npmjs.org/object-keys/-/object-keys-1.0.4.tgz"
             }
           }
         },
@@ -375,32 +377,35 @@
       }
     },
     "lodash": {
-      "version": "3.8.0",
-      "from": "lodash@"
+      "version": "3.9.3",
+      "from": "lodash@^3.9.1",
+      "resolved": "https://registry.npmjs.org/lodash/-/lodash-3.9.3.tgz"
     },
     "hpp": {
-      "version": "0.1.1",
-      "from": "hpp@",
+      "version": "0.2.0",
+      "from": "hpp@0.2.0",
+      "resolved": "https://registry.npmjs.org/hpp/-/hpp-0.2.0.tgz",
       "dependencies": {
         "lodash": {
-          "version": "3.7.0",
-          "from": "lodash@3.7.x"
+          "version": "3.9.3",
+          "from": "lodash@^3.9.1",
+          "resolved": "https://registry.npmjs.org/lodash/-/lodash-3.9.3.tgz"
         },
         "type-is": {
           "version": "1.6.2",
-          "from": "type-is@1.6.x",
+          "from": "type-is@^1.6.2",
           "dependencies": {
             "media-typer": {
               "version": "0.3.0",
               "from": "media-typer@0.3.0"
             },
             "mime-types": {
-              "version": "2.0.11",
+              "version": "2.0.12",
               "from": "mime-types@~2.0.11",
               "dependencies": {
                 "mime-db": {
-                  "version": "1.9.1",
-                  "from": "mime-db@~1.9.1"
+                  "version": "1.10.0",
+                  "from": "mime-db@~1.10.0"
                 }
               }
             }
@@ -603,8 +608,8 @@
           "from": "mv@~2",
           "dependencies": {
             "mkdirp": {
-              "version": "0.5.0",
-              "from": "mkdirp@~0.5.0",
+              "version": "0.5.1",
+              "from": "mkdirp@0.5.1",
               "dependencies": {
                 "minimist": {
                   "version": "0.0.8",
@@ -673,12 +678,12 @@
           "from": "qs@2.4.2"
         },
         "raw-body": {
-          "version": "2.0.1",
-          "from": "raw-body@~2.0.1",
+          "version": "2.0.2",
+          "from": "raw-body@2.0.2",
           "dependencies": {
             "bytes": {
-              "version": "2.0.1",
-              "from": "bytes@2.0.1"
+              "version": "2.1.0",
+              "from": "bytes@2.1.0"
             }
           }
         },
@@ -691,12 +696,12 @@
               "from": "media-typer@0.3.0"
             },
             "mime-types": {
-              "version": "2.0.11",
-              "from": "mime-types@~2.0.11",
+              "version": "2.0.12",
+              "from": "mime-types@2.0.12",
               "dependencies": {
                 "mime-db": {
-                  "version": "1.9.1",
-                  "from": "mime-db@~1.9.1"
+                  "version": "1.10.0",
+                  "from": "mime-db@~1.10.0"
                 }
               }
             }
