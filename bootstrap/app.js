@@ -123,6 +123,7 @@ app.use(function (req, res) {
         'ip'    : req.ip
     });
 
+    res.status(404);
     res.send('404: Page not found');
 });
 
@@ -140,6 +141,7 @@ app.use(function (err, req, res, next) {
         'error' : err
     });
 
+    res.status(500);
     res.send('500: Internal server error');
 });
 

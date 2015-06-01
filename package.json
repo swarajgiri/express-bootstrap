@@ -1,6 +1,6 @@
 {
   "name": "express-handlebars-starter-kit",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Framework with express and handlebars",
   "dependencies": {
     "compression": "~1.4.4",

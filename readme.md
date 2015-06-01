@@ -17,7 +17,7 @@ nvm use 0.12
 
 ### Run the following commands
 ```
-nvm install v0.12.2
+nvm install v0.12
 npm install
 ```
 
@@ -28,10 +28,16 @@ npm install -g bower
 bower install
 ```
 
+### Config
+To override default config in `cfg/index.js` add the relevant part to `cfg/development.js`
+
 ### Start server
 `node --harmony bootstrap/app.js | ./node_modules/.bin/bunyan`
 
 ### Run tests
 npm test
+
+### Logs
+Logs are created by `bootstrap/logger.js`
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/swarajgiri/express-bootstrap/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
