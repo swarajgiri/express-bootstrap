@@ -1,3 +1,4 @@
+[![Code Climate](https://codeclimate.com/github/swarajgiri/express-bootstrap/badges/gpa.svg)](https://codeclimate.com/github/swarajgiri/express-bootstrap)
 [![David DM](https://david-dm.org/swarajgiri/express-bootstrap.svg)](https://david-dm.org/swarajgiri/express-bootstrap.svg)
 [![Build Status](https://travis-ci.org/swarajgiri/express-bootstrap.svg?branch=master)](https://travis-ci.org/swarajgiri/express-bootstrap)
 
