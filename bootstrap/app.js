@@ -7,6 +7,7 @@ var express      = require('express'),
     hpp          = require('hpp'),
     bodyParser   = require('body-parser'),
     log          = require('./logger'),
+    core         = require('../core'),
     count        = 0;
 
 // Set config
@@ -78,11 +79,14 @@ app.set('view engine', 'hbs');
 // Enable view cache
 app.enable('view cache');
 
-// Load routes
-require('../web/routes')(app);
-
 // Set config
 app.set('config', config);
+
+// INIT core
+app.set('core', core(config));
+
+// Load routes
+require('../web/routes')(app);
 
 // Trust the X-Forwarded-* header
 app.enable('trust proxy');
