@@ -33,12 +33,17 @@ bower install
 To override default config in `cfg/index.js` add the relevant part to `cfg/development.js`
 
 ### Start server
-`node --harmony bootstrap/app.js | ./node_modules/.bin/bunyan`
+`node bootstrap/app.js | ./node_modules/.bin/bunyan`
 
 ### Run tests
 npm test
 
 ### Logs
 Logs are created by `bootstrap/logger.js`
+
+### Modules
+- Modules are stored in `core` folder.
+- Params that the modules need are passed from `core/index.js` while requiring it.
+- All core modules are injected into the `app` and get be accessed via `req.app.get('core').module.method`
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/swarajgiri/express-bootstrap/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
