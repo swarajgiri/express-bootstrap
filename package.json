@@ -6,7 +6,7 @@
     "compression": "~1.5.0",
     "express": "~4.13.0",
     "express-handlebars": "~2.0.1",
-    "lodash": "~3.9.0",
+    "lodash": "~3.10.0",
     "hpp": "~0.2.0",
     "handlebars": "~3.0.3",
     "helmet": "~0.9.1",
