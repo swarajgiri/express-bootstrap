@@ -36,7 +36,7 @@ To override default config in `cfg/index.js` add the relevant part to `cfg/devel
 `node bootstrap/app.js | ./node_modules/.bin/bunyan`
 
 ### Run tests
-npm test
+`npm test`
 
 ### Logs
 Logs are created by `bootstrap/logger.js`
