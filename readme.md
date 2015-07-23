@@ -33,7 +33,7 @@ bower install
 To override default config in `cfg/index.js` add the relevant part to `cfg/development.js`
 
 ### Start server
-`node bootstrap/app.js | ./node_modules/.bin/bunyan`
+`NODE_ENV=production node bootstrap/app.js | ./node_modules/.bin/bunyan`
 
 ### Run tests
 `npm test`
