@@ -14,7 +14,7 @@
     "body-parser": "~1.13.1"
   },
   "devDependencies": {
-    "mocha": "~2.2.5"
+    "mocha": "~2.3.0"
   },
   "scripts": {
       "test": "node_modules/mocha/bin/mocha --reporter nyan --timeout 10000 --harmony --recursive  tests"
