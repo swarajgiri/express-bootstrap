@@ -1,7 +1,7 @@
 require.config({
     baseUrl: '/static',
     paths: {
-        jquery: 'thirdparty/jquery/dist/jquery'
+        jquery: 'thirdparty/jquery/dist/jquery.min'
     },
     shim: {
     }
