@@ -5,6 +5,6 @@ describe('#test setup', function () {
         setTimeout(function(){
             assert.ok(true);
             done();
-        }, 2000);
+        }, 10);
     });
 });
