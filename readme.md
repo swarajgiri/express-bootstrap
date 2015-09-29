@@ -13,13 +13,12 @@
 Add the following lines to `~/.bashrc`
 ```
 source ~/.nvm/nvm.sh
-nvm use 0.12
+nvm use v4
 ```
 
 ### Run the following commands
 ```
-nvm install v0.12
-npm install
+nvm install v4.1.1
 ```
 
 ### Install front end dependencies
