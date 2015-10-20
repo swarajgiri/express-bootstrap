@@ -32,7 +32,7 @@ bower install
 To override default config in `cfg/index.js` add the relevant part to `cfg/development.js`
 
 ### Start server
-`npm test`
+`npm start`
 
 ### Run tests
 `npm test`
