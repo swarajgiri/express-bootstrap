@@ -8,7 +8,7 @@
     "express-handlebars": "~2.0.1",
     "lodash": "~3.10.0",
     "hpp": "~0.2.0",
-    "helmet": "~0.12.0",
+    "helmet": "^0.13.0",
     "bunyan": "~1.5.0",
     "body-parser": "~1.14.0"
   },
