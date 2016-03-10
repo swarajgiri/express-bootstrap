@@ -3,14 +3,16 @@
   "version": "1.0.0",
   "description": "Set up express and handlebars",
   "dependencies": {
+    "bluebird": "^3.3.4",
+    "body-parser": "^1.14.0",
+    "bunyan": "^1.5.0",
+    "co-express": "^1.2.1",
     "compression": "^1.6.0",
     "express": "^4.13.0",
     "express-handlebars": "^3.0.0",
-    "lodash": "^4.2.1",
-    "hpp": "^0.2.0",
     "helmet": "^1.1.0",
-    "bunyan": "^1.5.0",
-    "body-parser": "^1.14.0"
+    "hpp": "^0.2.0",
+    "lodash": "^4.2.1"
   },
   "devDependencies": {
     "mocha": "^2.4.5"

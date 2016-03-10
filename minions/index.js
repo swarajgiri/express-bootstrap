@@ -1,17 +1,18 @@
-var _ = require('lodash');
+'use strict';
 
-var modules = [
-    'testModule',
+let _       = require('lodash'),
+    minions = [
+    'bob',
 ];
 
 function init(cfg) {
-    var core = {};
+    let payload = {};
 
-    _.each(modules, function (m) {
-        core[m] = require('./' + m)(cfg);
+    _.each(minions, (minion) => {
+        payload[minion] = require('./' + minion)(cfg);
     });
 
-    return core;
+    return payload;
 }
 
 module.exports = init;
