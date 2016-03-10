@@ -1,6 +1,9 @@
-var _ = require('lodash');
+'use strict';
 
-var cfg = {
+let _ = require('lodash'),
+    env;
+
+let cfg = {
     'appname'     : 'bootstrap',
     'baseurl'     : process.env.BASEURL || 'http://localhost:8080',
     'paths': {
@@ -13,5 +16,5 @@ var cfg = {
     }
 };
 
-var env = process.env.NODE_ENV || 'development';
+env = process.env.NODE_ENV || 'development';
 module.exports = _.extend(cfg, require('./' + env));

@@ -1,4 +1,6 @@
-var express      = require('express'),
+'use strict';
+
+let express      = require('express'),
     config       = require('../cfg'),
     app          = express(),
     exphbs       = require('express-handlebars'),
@@ -7,7 +9,7 @@ var express      = require('express'),
     hpp          = require('hpp'),
     bodyParser   = require('body-parser'),
     log          = require('./logger'),
-    core         = require('../core'),
+    minions      = require('../minions'),
     count        = 0;
 
 // Set config
@@ -82,8 +84,8 @@ app.enable('view cache');
 // Set config
 app.set('config', config);
 
-// INIT core
-app.set('core', core(config));
+// INIT minions
+app.set('minions', minions(config));
 
 // Load routes
 require('../web/routes')(app);
