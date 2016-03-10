@@ -18,7 +18,7 @@ nvm use v4
 
 ### Run the following commands
 ```
-nvm install v4.1.1
+nvm install v4.3
 ```
 
 ### Install front end dependencies
