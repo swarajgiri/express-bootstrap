@@ -1,4 +1,6 @@
-var assert = require('assert');
+'use strict';
+
+let assert = require('assert');
 
 describe('#test setup', function () {
     it('should set return true', function (done) {

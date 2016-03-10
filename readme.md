@@ -2,9 +2,10 @@
 [![David DM](https://david-dm.org/swarajgiri/express-bootstrap.svg)](https://david-dm.org/swarajgiri/express-bootstrap.svg)
 [![Build Status](https://travis-ci.org/swarajgiri/express-bootstrap.svg?branch=master)](https://travis-ci.org/swarajgiri/express-bootstrap)
 
-### Hello world bootstrap using
+### How i structure my apps, using
 - Express
 - Handlebars
+- Requirejs
 
 ### Requirements
 -  Nodejs. Best way to install nodejs is [nvm](https://github.com/creationix/nvm)
@@ -43,8 +44,8 @@ To override default config in `cfg/index.js` add the relevant part to `cfg/devel
 Logs are created by `bootstrap/logger.js`
 
 ### Modules
-- Modules are stored in `core` folder.
-- Params that the modules need are passed from `core/index.js` while requiring it.
-- All core modules are injected into the `app` and get be accessed via `req.app.get('core').module.method`
+- Modules are stored in `minions` folder.
+- Params that the modules need are passed from `minions/index.js` while requiring it.
+- All minions modules are injected into the `app` and get be accessed via `req.app.get('minions').module.method`
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/swarajgiri/express-bootstrap/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
