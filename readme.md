@@ -24,15 +24,17 @@ nvm install v4.3
 ### Install front end dependencies
 
 ```
-npm install -g bower
+npm install -g bower nodemon
 bower install
 ```
 
 ### Config
 To override default config in `cfg/index.js` add the relevant part to `cfg/development.js`
 
-### Start server
-`npm start`
+### Start servers
+- `npm start`
+
+- `npm run start:dev` - Watch for file changes and restart server. It's a pain in the ass to not do so.
 
 ### Run tests
 `npm test`
