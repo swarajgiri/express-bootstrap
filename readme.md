@@ -46,6 +46,6 @@ Logs are created by `bootstrap/logger.js`
 ### Modules
 - Modules are stored in `minions` folder.
 - Params that the modules need are passed from `minions/index.js` while requiring it.
-- All minions modules are injected into the `app` and get be accessed via `req.app.get('minions').module.method`
+- All minions are injected into `app` and then can be accessed via `req.app.get('minions').module.method`
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/swarajgiri/express-bootstrap/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
