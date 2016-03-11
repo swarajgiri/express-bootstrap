@@ -23,18 +23,19 @@ app.use(bodyParser.urlencoded({
 app.use(hpp());
 
 // Add CSP
-/* jshint ignore:start */
 app.use(helmet.csp({
-    defaultSrc: ["'self'"],
-    imgSrc: [],
-    styleSrc: ["'unsafe-inline'"],
-    connectSrc: ["'none'"],
-    fontSrc: [],
-    objectSrc: [],
-    mediaSrc: [],
-    frameSrc: []
+    directives: {
+        defaultSrc: ["'self'"],
+        imgSrc: [],
+        styleSrc: ["'unsafe-inline'"],
+        connectSrc: ["'none'"],
+        fontSrc: [],
+        objectSrc: [],
+        mediaSrc: [],
+        frameSrc: []
+    },
+    disableAndroid: true
 }));
-/* jshint ignore:end */
 
 // Add X-XSS-Protection
 app.use(helmet.xssFilter());
@@ -50,6 +51,8 @@ app.use(helmet.noSniff());
 
 // Use gzip
 app.use(compress());
+
+app.set('etag', 'strong');
 
 // Set views dir
 app.set('views', app.get('config').paths.templates);
