@@ -5,7 +5,6 @@
 ### How i structure my apps, using
 - Express
 - Handlebars
-- Requirejs
 
 ### Requirements
 -  Nodejs. Best way to install nodejs is [nvm](https://github.com/creationix/nvm)
@@ -19,14 +18,13 @@ nvm use v4
 
 ### Run the following commands
 ```
-nvm install v4.3
+nvm install v4
 ```
 
-### Install front end dependencies
+### Install dependencies
 
 ```
-npm install -g bower nodemon
-bower install
+npm install
 ```
 
 ### Config
@@ -47,5 +45,3 @@ Logs are created by `bootstrap/logger.js`
 - Modules are stored in `minions` folder.
 - Params that the modules need are passed from `minions/index.js` while requiring it.
 - All minions are injected into `app` and then can be accessed via `req.app.get('minions').module.method`
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/swarajgiri/express-bootstrap/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
