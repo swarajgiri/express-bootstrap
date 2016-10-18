@@ -24,19 +24,19 @@ nvm install v4
 ### Install dependencies
 
 ```
-npm install
+yarn install
 ```
 
 ### Config
 To override default config in `cfg/index.js` add the relevant part to `cfg/development.js`
 
 ### Start servers
-- `npm start`
+- `yarn start`
 
-- `npm run start:dev` - Watch for file changes and restart server. It's a pain in the ass to not do so.
+- `yarn run start:dev` - Watch for file changes and restart server. It's a pain in the ass to not do so.
 
 ### Run tests
-`npm test`
+`yarn test`
 
 ### Logs
 Logs are created by `bootstrap/logger.js`
