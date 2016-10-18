@@ -18,7 +18,7 @@
     "nodemon": "^1.10.0"
   },
   "scripts": {
-    "start": "./scripts/yarn/startWorkaround.sh",
+    "start": "NODE_ENV=production ./scripts/yarn/startWorkaround.sh",
     "start:dev": "./scripts/yarn/startDevWorkaround.sh",
     "test": "./scripts/yarn/testWorkaround.sh"
   },
