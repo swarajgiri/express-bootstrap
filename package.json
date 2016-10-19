@@ -18,9 +18,9 @@
     "nodemon": "^1.10.0"
   },
   "scripts": {
-    "start": "./scripts/yarn/startWorkaround.sh",
-    "start:dev": "./scripts/yarn/startDevWorkaround.sh",
-    "test": "./scripts/yarn/testWorkaround.sh"
+    "start": "NODE_ENV=production node bootstrap/app.js | ./node_modules/.bin/bunyan",
+    "start:dev": "nodemon bootstrap/app.js | ./node_modules/.bin/bunyan",
+    "test": "node_modules/mocha/bin/mocha --reporter nyan --timeout 10000 --harmony --recursive tests"
   },
   "repository": {
     "type": "git",
