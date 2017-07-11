@@ -7,7 +7,7 @@
     "body-parser": "^1.14.0",
     "bunyan": "^1.5.0",
     "co-express": "^2.0.0",
-    "compression": "^1.6.0",
+    "compression": "^1.7.0",
     "express": "^4.13.0",
     "express-handlebars": "^3.0.0",
     "hpp": "^0.2.0",
