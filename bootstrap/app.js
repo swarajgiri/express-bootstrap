@@ -101,7 +101,7 @@ app.use((req, res) => {
     res.send('404: Page not found');
 });
 
-// Handle errors
+// Handle 500 errors
 app.use((err, req, res, next) => {
     if (! err) {
         return next();
