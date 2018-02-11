@@ -1,14 +1,14 @@
 'use strict';
 
-let _       = require('lodash'),
+const _       = require('lodash'),
     minions = [
     'bob',
 ];
 
 function init(cfg) {
-    let payload = {};
+    const payload = {};
 
-    _.each(minions, (minion) => {
+    _.forEach(minions, (minion) => {
         payload[minion] = require('./' + minion)(cfg);
     });
 

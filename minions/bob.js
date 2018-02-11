@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = function (cfg) {
-    let Promise = require('bluebird');
+    const Promise = require('bluebird');
 
     class Bob {
         static says() {

@@ -1,9 +1,9 @@
 'use strict';
 
-let express = require('express'),
-    router  = express.Router(),
-    wrap    = require('co-express'),
-    tmpldir;
+const express = require('express'),
+    router  = express.Router();
+
+let tmpldir;
 
 // set template directory
 router.use((req, res, next) => {
@@ -12,13 +12,13 @@ router.use((req, res, next) => {
     next();
 });
 
-router.get('/', wrap(function* (req, res, next) {
-    let pageData = {
+router.get('/', async (req, res, next) => {
+    const pageData = {
         'title'     : 'Minions say',
-        'say'       : yield req.app.get('minions').bob.says()
+        'say'       : await req.app.get('minions').bob.says()
     };
 
     res.render(tmpldir + '/index', pageData);
-}));
+});
 
 module.exports = router;

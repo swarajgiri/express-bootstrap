@@ -8,16 +8,9 @@
 ### Requirements
 -  Nodejs LTS. Best way to install nodejs is [nvm](https://github.com/creationix/nvm)
 
-### Installation
-Add the following lines to `~/.bashrc`
-```
-source ~/.nvm/nvm.sh
-nvm use v6
-```
-
 ### Run the following commands
 ```
-nvm install v6
+nvm install v8
 ```
 
 ### Install dependencies
