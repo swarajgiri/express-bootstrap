@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Set up express and handlebars",
   "dependencies": {
-    "bluebird": "^3.3.4",
+    "bluebird": "^3.5.3",
     "body-parser": "^1.14.0",
     "bunyan": "^1.5.0",
     "compression": "^1.6.0",
