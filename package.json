@@ -13,7 +13,7 @@
     "lodash": "^4.2.1"
   },
   "devDependencies": {
-    "mocha": "^6.0.0",
+    "mocha": "^6.2.0",
     "nodemon": "^1.10.0"
   },
   "scripts": {
