@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "mocha": "^6.0.0",
-    "nodemon": "^1.10.0"
+    "nodemon": "^1.19.3"
   },
   "scripts": {
     "start": "NODE_ENV=production node bootstrap/app.js | bunyan",
