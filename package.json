@@ -9,7 +9,7 @@
     "compression": "^1.6.0",
     "express": "^4.13.0",
     "express-handlebars": "^3.0.0",
-    "hpp": "^0.2.0",
+    "hpp": "^0.2.3",
     "lodash": "^4.2.1"
   },
   "devDependencies": {
